@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C624181DD2F7BF00E2D68F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C624171DD2F7BF00E2D68F /* main.m */; };
+		40C6241B1DD2F7BF00E2D68F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C6241A1DD2F7BF00E2D68F /* AppDelegate.m */; };
+		40C6241E1DD2F7BF00E2D68F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C6241D1DD2F7BF00E2D68F /* ViewController.m */; };
+		40C624211DD2F7BF00E2D68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C6241F1DD2F7BF00E2D68F /* Main.storyboard */; };
+		40C624231DD2F7BF00E2D68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C624221DD2F7BF00E2D68F /* Assets.xcassets */; };
+		40C624261DD2F7BF00E2D68F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C624241DD2F7BF00E2D68F /* LaunchScreen.storyboard */; };
+		40C624311DD2F7BF00E2D68F /* RongCloudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C624301DD2F7BF00E2D68F /* RongCloudDemoTests.m */; };
+		40C6243C1DD2F7BF00E2D68F /* RongCloudDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C6243B1DD2F7BF00E2D68F /* RongCloudDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C6242D1DD2F7BF00E2D68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C6240B1DD2F7BF00E2D68F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C624121DD2F7BF00E2D68F;
+			remoteInfo = RongCloudDemo;
+		};
+		40C624381DD2F7BF00E2D68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C6240B1DD2F7BF00E2D68F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C624121DD2F7BF00E2D68F;
+			remoteInfo = RongCloudDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C624131DD2F7BF00E2D68F /* RongCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C624171DD2F7BF00E2D68F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40C624191DD2F7BF00E2D68F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40C6241A1DD2F7BF00E2D68F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40C6241C1DD2F7BF00E2D68F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40C6241D1DD2F7BF00E2D68F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40C624201DD2F7BF00E2D68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40C624221DD2F7BF00E2D68F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C624251DD2F7BF00E2D68F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40C624271DD2F7BF00E2D68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C6242C1DD2F7BF00E2D68F /* RongCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C624301DD2F7BF00E2D68F /* RongCloudDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongCloudDemoTests.m; sourceTree = "<group>"; };
+		40C624321DD2F7BF00E2D68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C624371DD2F7BF00E2D68F /* RongCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C6243B1DD2F7BF00E2D68F /* RongCloudDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongCloudDemoUITests.m; sourceTree = "<group>"; };
+		40C6243D1DD2F7BF00E2D68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C624101DD2F7BF00E2D68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C624291DD2F7BF00E2D68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C624341DD2F7BF00E2D68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C6240A1DD2F7BF00E2D68F = {
+			isa = PBXGroup;
+			children = (
+				40C624151DD2F7BF00E2D68F /* RongCloudDemo */,
+				40C6242F1DD2F7BF00E2D68F /* RongCloudDemoTests */,
+				40C6243A1DD2F7BF00E2D68F /* RongCloudDemoUITests */,
+				40C624141DD2F7BF00E2D68F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C624141DD2F7BF00E2D68F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C624131DD2F7BF00E2D68F /* RongCloudDemo.app */,
+				40C6242C1DD2F7BF00E2D68F /* RongCloudDemoTests.xctest */,
+				40C624371DD2F7BF00E2D68F /* RongCloudDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C624151DD2F7BF00E2D68F /* RongCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				40C624191DD2F7BF00E2D68F /* AppDelegate.h */,
+				40C6241A1DD2F7BF00E2D68F /* AppDelegate.m */,
+				40C6241C1DD2F7BF00E2D68F /* ViewController.h */,
+				40C6241D1DD2F7BF00E2D68F /* ViewController.m */,
+				40C6241F1DD2F7BF00E2D68F /* Main.storyboard */,
+				40C624221DD2F7BF00E2D68F /* Assets.xcassets */,
+				40C624241DD2F7BF00E2D68F /* LaunchScreen.storyboard */,
+				40C624271DD2F7BF00E2D68F /* Info.plist */,
+				40C624161DD2F7BF00E2D68F /* Supporting Files */,
+			);
+			path = RongCloudDemo;
+			sourceTree = "<group>";
+		};
+		40C624161DD2F7BF00E2D68F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40C624171DD2F7BF00E2D68F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40C6242F1DD2F7BF00E2D68F /* RongCloudDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C624301DD2F7BF00E2D68F /* RongCloudDemoTests.m */,
+				40C624321DD2F7BF00E2D68F /* Info.plist */,
+			);
+			path = RongCloudDemoTests;
+			sourceTree = "<group>";
+		};
+		40C6243A1DD2F7BF00E2D68F /* RongCloudDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C6243B1DD2F7BF00E2D68F /* RongCloudDemoUITests.m */,
+				40C6243D1DD2F7BF00E2D68F /* Info.plist */,
+			);
+			path = RongCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C624121DD2F7BF00E2D68F /* RongCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C624401DD2F7BF00E2D68F /* Build configuration list for PBXNativeTarget "RongCloudDemo" */;
+			buildPhases = (
+				40C6240F1DD2F7BF00E2D68F /* Sources */,
+				40C624101DD2F7BF00E2D68F /* Frameworks */,
+				40C624111DD2F7BF00E2D68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RongCloudDemo;
+			productName = RongCloudDemo;
+			productReference = 40C624131DD2F7BF00E2D68F /* RongCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C6242B1DD2F7BF00E2D68F /* RongCloudDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C624431DD2F7BF00E2D68F /* Build configuration list for PBXNativeTarget "RongCloudDemoTests" */;
+			buildPhases = (
+				40C624281DD2F7BF00E2D68F /* Sources */,
+				40C624291DD2F7BF00E2D68F /* Frameworks */,
+				40C6242A1DD2F7BF00E2D68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C6242E1DD2F7BF00E2D68F /* PBXTargetDependency */,
+			);
+			name = RongCloudDemoTests;
+			productName = RongCloudDemoTests;
+			productReference = 40C6242C1DD2F7BF00E2D68F /* RongCloudDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40C624361DD2F7BF00E2D68F /* RongCloudDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C624461DD2F7BF00E2D68F /* Build configuration list for PBXNativeTarget "RongCloudDemoUITests" */;
+			buildPhases = (
+				40C624331DD2F7BF00E2D68F /* Sources */,
+				40C624341DD2F7BF00E2D68F /* Frameworks */,
+				40C624351DD2F7BF00E2D68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C624391DD2F7BF00E2D68F /* PBXTargetDependency */,
+			);
+			name = RongCloudDemoUITests;
+			productName = RongCloudDemoUITests;
+			productReference = 40C624371DD2F7BF00E2D68F /* RongCloudDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C6240B1DD2F7BF00E2D68F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LSJ;
+				TargetAttributes = {
+					40C624121DD2F7BF00E2D68F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C5P3692DC5;
+						ProvisioningStyle = Automatic;
+					};
+					40C6242B1DD2F7BF00E2D68F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C5P3692DC5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40C624121DD2F7BF00E2D68F;
+					};
+					40C624361DD2F7BF00E2D68F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C5P3692DC5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40C624121DD2F7BF00E2D68F;
+					};
+				};
+			};
+			buildConfigurationList = 40C6240E1DD2F7BF00E2D68F /* Build configuration list for PBXProject "RongCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C6240A1DD2F7BF00E2D68F;
+			productRefGroup = 40C624141DD2F7BF00E2D68F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C624121DD2F7BF00E2D68F /* RongCloudDemo */,
+				40C6242B1DD2F7BF00E2D68F /* RongCloudDemoTests */,
+				40C624361DD2F7BF00E2D68F /* RongCloudDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C624111DD2F7BF00E2D68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C624261DD2F7BF00E2D68F /* LaunchScreen.storyboard in Resources */,
+				40C624231DD2F7BF00E2D68F /* Assets.xcassets in Resources */,
+				40C624211DD2F7BF00E2D68F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C6242A1DD2F7BF00E2D68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C624351DD2F7BF00E2D68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C6240F1DD2F7BF00E2D68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C6241E1DD2F7BF00E2D68F /* ViewController.m in Sources */,
+				40C6241B1DD2F7BF00E2D68F /* AppDelegate.m in Sources */,
+				40C624181DD2F7BF00E2D68F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C624281DD2F7BF00E2D68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C624311DD2F7BF00E2D68F /* RongCloudDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C624331DD2F7BF00E2D68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C6243C1DD2F7BF00E2D68F /* RongCloudDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C6242E1DD2F7BF00E2D68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C624121DD2F7BF00E2D68F /* RongCloudDemo */;
+			targetProxy = 40C6242D1DD2F7BF00E2D68F /* PBXContainerItemProxy */;
+		};
+		40C624391DD2F7BF00E2D68F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C624121DD2F7BF00E2D68F /* RongCloudDemo */;
+			targetProxy = 40C624381DD2F7BF00E2D68F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C6241F1DD2F7BF00E2D68F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C624201DD2F7BF00E2D68F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40C624241DD2F7BF00E2D68F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C624251DD2F7BF00E2D68F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C6243E1DD2F7BF00E2D68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40C6243F1DD2F7BF00E2D68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C624411DD2F7BF00E2D68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5P3692DC5;
+				INFOPLIST_FILE = RongCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.RongCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40C624421DD2F7BF00E2D68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5P3692DC5;
+				INFOPLIST_FILE = RongCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.RongCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40C624441DD2F7BF00E2D68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C5P3692DC5;
+				INFOPLIST_FILE = RongCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.RongCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RongCloudDemo.app/RongCloudDemo";
+			};
+			name = Debug;
+		};
+		40C624451DD2F7BF00E2D68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C5P3692DC5;
+				INFOPLIST_FILE = RongCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.RongCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RongCloudDemo.app/RongCloudDemo";
+			};
+			name = Release;
+		};
+		40C624471DD2F7BF00E2D68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C5P3692DC5;
+				INFOPLIST_FILE = RongCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.RongCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RongCloudDemo;
+			};
+			name = Debug;
+		};
+		40C624481DD2F7BF00E2D68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C5P3692DC5;
+				INFOPLIST_FILE = RongCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bocweb.RongCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RongCloudDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C6240E1DD2F7BF00E2D68F /* Build configuration list for PBXProject "RongCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C6243E1DD2F7BF00E2D68F /* Debug */,
+				40C6243F1DD2F7BF00E2D68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C624401DD2F7BF00E2D68F /* Build configuration list for PBXNativeTarget "RongCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C624411DD2F7BF00E2D68F /* Debug */,
+				40C624421DD2F7BF00E2D68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40C624431DD2F7BF00E2D68F /* Build configuration list for PBXNativeTarget "RongCloudDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C624441DD2F7BF00E2D68F /* Debug */,
+				40C624451DD2F7BF00E2D68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40C624461DD2F7BF00E2D68F /* Build configuration list for PBXNativeTarget "RongCloudDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C624471DD2F7BF00E2D68F /* Debug */,
+				40C624481DD2F7BF00E2D68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C6240B1DD2F7BF00E2D68F /* Project object */;
+}
