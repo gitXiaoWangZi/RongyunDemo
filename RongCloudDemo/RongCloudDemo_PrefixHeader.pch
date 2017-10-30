@@ -1,0 +1,19 @@
+//
+//  RongCloudDemo_PrefixHeader.pch
+//  RongCloudDemo
+//
+//  Created by 刘圣洁 on 16/11/9.
+//  Copyright © 2016年 LSJ. All rights reserved.
+//
+
+#ifndef RongCloudDemo_PrefixHeader_pch
+#define RongCloudDemo_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <RongIMKit/RongIMKit.h>
+
+#endif /* RongCloudDemo_PrefixHeader_pch */
